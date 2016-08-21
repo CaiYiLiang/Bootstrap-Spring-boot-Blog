@@ -1,0 +1,235 @@
+@import url('//fonts.googleapis.com/css?family=Source+Sans+Pro:300');
+@import url('//fonts.googleapis.com/css?family=Indie Flower');
+@import url('//fonts.googleapis.com/css?family=Montserrat');  
+@import url('//fonts.googleapis.com/css?family=Lato');  
+@import url('//fonts.googleapis.com/css?family=Dosis');  
+  
+  
+  body {
+      font: 400 17px Lato, sans-serif;
+      line-height: 1.8;
+      color: #434d5a;     
+  }
+  h2 {
+      font-size: 24px;
+      text-transform: uppercase;
+      color: #303030;
+      font-weight: 600;
+      margin-bottom: 30px;
+  }
+  h4 {
+      font-size: 18px;
+      line-height: 1.375em;
+      color: #75889E;
+      font-weight: 400;
+      margin-bottom: 30px;
+  }
+  
+label{
+	      color: #616974;
+       font: 400 15px Lato, sans-serif;
+}
+
+ .project-list{
+ 	   margin-bottom: 40px;
+ }
+ 
+ .project-info{
+ 	    font-size:25px; 
+ 	    color: #17A0A0;
+ }
+
+  .container-fluid { 	 
+      padding: 60px 50px;
+  }
+  
+  .cover-page {
+  	   padding: 120px 50px;  	
+  }
+  
+  .coverpage-text{
+  	  margin-left: 50px;
+  }
+  
+ .coverpage-name {
+  	   font:30px Dosis, sans-serif;  
+  	   color: #606060; 
+  	   margin-bottom: 10px; 
+  } 
+  
+.coverpage-quote {
+	    font: 20px Indie Flower, sans-serif; 
+	    letter-spacing:3; 
+	    color: #669bbc; 
+	    display: block; 
+	    margin:10px  0px;
+}
+
+.coverpage-intro {
+	    font: 15px Dosis, sans-serif;  
+	    letter-spacing:3; 
+	    color: #46494c;
+	    display: block; 
+	    margin-bottom: 8px;
+}
+  
+  .bg-grey {
+      background-color: rgba(246, 246, 246, 0.51);
+  }
+  .logo-small {
+      color: #f4511e;
+      font-size: 50px;
+  }
+  .logo {
+      color: #f4511e;
+      font-size: 200px;
+  }
+
+  .awesome-moment{
+  	   font-size: 30px;
+      text-transform: uppercase;
+      color: #303030;
+      font-weight: 600;
+      margin-bottom: 50px;
+ 	   font-family: Indie Flower, sans-serif;
+ }
+  .carousel-control.right, .carousel-control.left {
+      background-image: none;
+      color: #17a0a0;
+  }
+  .carousel-indicators li {
+      border-color:#17a0a0;
+  }
+  .carousel-indicators li.active {
+      background-color: #17a0a0;
+  }
+  
+.carousel-img {
+  	  width:300px;
+  	  height:300px;
+  	  margin: 0 auto;
+  }
+  
+  .item h4 {
+      font-size: 19px;
+      line-height: 1.375em;
+      font-weight: 400;
+      font-style: italic;
+      margin: 40px 0;
+      padding-bottom: 30px;
+  }
+  .item span {
+      font-style: normal;
+  }
+  
+  .navbar {
+      margin-bottom: 0;
+      background-color: #17a0a0;
+      z-index: 9999;
+      border: 0;
+     font-size: 12px;
+      line-height: 1.42857143 !important;
+      letter-spacing: 3px;
+      border-radius: 0;
+      font-family: Montserrat, sans-serif;
+  }
+  .navbar li a, .navbar .navbar-brand {
+      color: #fff !important;
+  }
+  
+ .navbar .navbar-brand{
+ 	      padding-left: 80px !important;
+ 				font-size: 20px;
+ 	      font-family: Dosis, sans-serif;
+ }
+ 
+ .navbar .navbar-brand:hover{
+ 	      font-size: 25px;
+ 	      font-family: Indie Flower, sans-serif;
+ }
+ 
+   .navbar .navbar-collapse ul{
+   	   padding-right: 30px;
+   }
+   
+  .navbar .navbar-collapse ul li{
+   	  margin-left:5px ;
+   }
+
+  .navbar-nav li a:hover{
+      color: #a9cf54 !important;
+      border-bottom: 2px solid #91cb3e;
+      line-height: 1.4 !important;      
+  }
+  
+  /* The active link */ 
+  .navbar-nav li.active a {
+      color: #a9cf54 !important;
+      border-bottom: 2px solid #91cb3e;
+      line-height: 1.4 !important;      
+      background-color: #3ca7a7 !important;
+  }
+  
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+      color: #fff !important;
+  }
+  
+  footer .glyphicon {
+      font-size: 20px;
+      margin-bottom: 20px;
+      color: #17a0a0 ;
+  }
+  
+  .slideanim {visibility:hidden;} 
+  .slide {
+      animation-name: slide;
+      -webkit-animation-name: slide;  /*animation-name : bound with @keyframes*/
+      animation-duration: 1s;
+      -webkit-animation-duration: 1s;
+      visibility: visible;
+  }
+  @keyframes slide {
+    0% {
+      opacity: 0;  /*totally transparent*/
+      -webkit-transform: translateY(70%);
+    }
+    100% {
+      opacity: 1;   /*totally un-transparent*/
+      -webkit-transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+      padding: 0px 0px;
+    }
+    .btn-lg {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .logo {
+        font-size: 150px;
+    }
+  }
+  
+  
+#messageModal{
+	margin: 100px auto; 
+	text-align: center; 
+	color:#6fc1c1;
+}
