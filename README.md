@@ -1,8 +1,9 @@
 # Bootstrap-Spring boot-Blog    [![Wercker](https://img.shields.io/wercker/ci/wercker/docs.svg?maxAge=2592000)]() 
-
+<br>
 
 
 This is a very simple and clean-design personal blog page implemented with Bootstrap framework and Spring Boot. And this simple Spring boot application is runing as my personal website on <a href="https://www.heroku.com/">Heroku</a>. You can check <a href="https://hicherry.herokuapp.com/">my psersonal website</a> for demo reference.
+<br>
 
 **version**
 ----------
@@ -11,6 +12,7 @@ This is a very simple and clean-design personal blog page implemented with Boots
 >- Hibernate + mySQL/postgreSQL(<a href="https://www.heroku.com/">Heroku</a> native database) 
 >- <a href="https://getbootstrap.com/">Bootstrap</a> - A very popular and responsive front-end framework
 ><h6>*2016-07-31*</h6> 
+<br>
 
 
 **Quick Start**
